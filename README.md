@@ -85,17 +85,7 @@ slhost && certv2ray
 ### 6. FIX ERROR SSLH WS
 # Auto Fix Error SSLH + WS-TLS 443
 
- 
 
-* 2 • di menu lalu pilih 17 (SL-FIX Menu)
-```html
-17
- ```
-
-* 3 • jika sudah selesai lalu reboot/ hidupkan ulang vps nya
-```html
-reboot
- ```
 
 ### 7. Info Websocket
 * Websocket harus menggunakan subdomain/domain dan sudah di pointing di cloudflare (CDN CLOUDFLARE)
