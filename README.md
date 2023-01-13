@@ -11,7 +11,6 @@ Mod By Boy
 <p align="center"><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=debian&label=Debian%209&message=Stretch&color=purple"> <img src="https://img.shields.io/static/v1?style=for-the-badge&logo=debian&label=Debian%2010&message=Buster&color=purple">  <img src="https://img.shields.io/static/v1?style=for-the-badge&logo=ubuntu&label=Ubuntu%2018&message=Lts&color=red"> <img src="https://img.shields.io/static/v1?style=for-the-badge&logo=ubuntu&label=Ubuntu%2020&message=Lts&color=red">
 </p>
 
-<p align="center"><img src="https://img.shields.io/badge/Service-SSH_Over_Websocket-success.svg">  <img src=
 
 ### Script Khusus Xray Multi Port TERBARU
 ### Script Khusus Xray Multi Port TERBARU
@@ -34,23 +33,13 @@ Buat VPS Fresh atau VPS Baru dan Wajib Menggunakan User: root
 
 # Khusus Untuk OS
 * • Debian 10 & 9
- 
-  
-
-
-
-* Install Semua Layanan VPN /Install All VPN Servic
-  
-
-### 4. DONE / SELESAI
-<img src="https://img.shields.io/badge/DONE%20_/_%20SELESAI-green">
-
+* Install Semua Layanan VPN /Install All VPN Server
 * • jika tidak bisa login di vps ,gunakan port ssh
 * • 22, 2253
 
-### Jangan Lupa Traktir Kopi
+# Jangan Lupa Traktir Kopi
 
-### 5. MENU, INFO ,UPDATE ,FIX
+# MENU, INFO ,UPDATE ,FIX
 * untuk menampilkan menu
 menu
 ```
@@ -63,30 +52,17 @@ menu
 * perbaiki error di bagian acme domain
 * untuk update Sertifikat SSL/TLS
 slhost && certv2ray
-```
-* lalu restart
 
-### 6. FIX ERROR SSLH WS
-# Auto Fix Error SSLH + WS-TLS 443
+### 1. FIX ERROR SSLH WS
+    Auto Fix Error SSLH + WS-TLS 443
 
-
-
-### 7. Info Websocket
+### 2. Info Websocket
 * Websocket harus menggunakan subdomain/domain dan sudah di pointing di cloudflare (CDN CLOUDFLARE)
 * Tanpa subdomain/domain mustahil bisa terhubung dengan bug yang berasal dari cloudflare
-*
-*
-*
 
-### 8. Edit Port SSL WS atau Ganti Port SSL(Manual)
+### 3. Edit Port SSL WS atau Ganti Port SSL(Manual)
 * ubah port yg mau di ubah ,jika 443 silahkan ubah tulisan yang ada 443
 * setelah di edit lalu di simpan (CTRL+X+Y dan enter)
-
-`
- ```
-
-
- ```
 
 ###fitur open
 • CEK SEMUA IP DAN PORT (Service ALL VPN)
