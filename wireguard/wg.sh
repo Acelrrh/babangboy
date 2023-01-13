@@ -27,7 +27,7 @@ exit 0
 fi
 # ==================================================
 # Link Hosting Kalian
-fisabiliyusri="raw.githubusercontent.com/fisabiliyusri/Mantap/main/wireguard"
+babangboy="raw.githubusercontent.com/Acelrrh/babangboy/main/wireguard"
 
 # Check OS version
 if [[ -e /etc/debian_version ]]; then
@@ -46,7 +46,7 @@ if [[ -e /etc/wireguard/params ]]; then
 	exit 1
 fi
 
-echo -e "${Info} Wireguard Script Mod By SL"
+echo -e "${Info} Wireguard Script Mod By boy"
 # Detect public IPv4 address and pre-fill for the user
 
 # Detect public interface and pre-fill for the user
@@ -112,9 +112,9 @@ WG_RUNNING=$?
 
 # Tambahan
 cd /usr/bin
-wget -O addwg "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/wireguard/addwg.sh"
-wget -O delwg "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/wireguard/delwg.sh"
-wget -O renewwg "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/wireguard/renewwg.sh"
+wget -O addwg "https://raw.githubusercontent.com/Acelrrh/babangboy/main/wireguard/addwg.sh"
+wget -O delwg "https://raw.githubusercontent.com/Acelrrh/babangboy/main/wireguard/delwg.sh"
+wget -O renewwg "https://raw.githubusercontent.com/Acelrrh/babangboy/main/wireguard/renewwg.sh"
 chmod +x addwg
 chmod +x delwg
 chmod +x renewwg
