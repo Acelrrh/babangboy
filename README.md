@@ -23,8 +23,7 @@ Mod By Boy
 https://github.com/fisabiliyusri/XRAY-MANTAP
 ### Script Khusus Xray Multi Port TERBARU
 
-### Link Grup FB: 
-https://www.facebook.com/groups/1880372362109422/?ref=share
+### Link Grup WHATSAPP(https://chat.whatsapp.com/F4VpFXOyRuE84U3rtsKjL0)
 ### Info:
 * HARAP DI BACA & UTAMAKAN MEMBACA
 # INI SCRIPT KHUSUS UNTUK MEMBUAT SERVER VPN
@@ -33,26 +32,12 @@ Buat VPS Fresh atau VPS Baru dan Wajib Menggunakan User: root
 * Login VPS User menggunakan user root
 * Cara langsung masuk ke akses root
 
-```html
-sudo su
-```
-Atau
-```html
-sudo -i
-```
-atau
-```html
-su
-```
-
-### Link Video Tutorial Cara Install
-```html
-https://www.facebook.com/100031931503057/posts/628374871570224/?app=fbl
+`
 ```
 
 ## INFO TAMBAHAN , SILAHKAN DI BACA 
 * MINIMAL RAM 1 GB UNTUK MENGGUNAKAN SCRIPT INI
-* MAAF PROXY SQUID NYA SAYA HAPUS, silahkan edit script ini secara manual
+* MAAF PROXY SQUID NYA SAYA HAPUS
 
 # Khusus Untuk OS
 * • Debian 10 & 9
@@ -60,38 +45,15 @@ atau
 * • Ubuntu 18.04 & 20.04
 * Working For VPS AWS,AZURE,DO
 ## Installation 
-## 1.
-<img src="https://img.shields.io/badge/Update%20_&_%20Upgrade-green">
 
-  ```html
-apt-get update && apt-get upgrade -y && update-grub && sleep 2 && reboot
-```
-  
-## 2.0
-<img src="https://img.shields.io/badge/Login_Root%20VPS-green">
-
-* Login ke VPS dan Aktifkan Root Sementara
-
-  
-```html
-sudo su
-cd
-cd
-```
-
-## 2.
-
-  <img src="https://img.shields.io/badge/Buat_Akses_Root%20VPS-green">
 
 * Buat Akses Root Di VPS /Root VPS
 * Untuk Mengizinkan Root Dan Ubah Password Login di VPS Google Cloud Platform, Aws, Dan Lain-lain
    
 ```html
   wget -qO- -O vpsroot.sh https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/vpsroot.sh && bash vpsroot.sh
+ 
   
-```
-  
-### 3.
 
   <img src="https://img.shields.io/badge/Install_Semua_Layanan_VPN%20-green">
 
@@ -110,46 +72,27 @@ rm -f setup.sh && apt update && apt upgrade -y && update-grub && sleep 2 && apt-
 * • 22, 2253
 
 ### Jangan Lupa Traktir Kopi
-<a href="https://trakteer.id/sulaiman-l/tip" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-6.png" height="40" style="border: 0px; height: 40px;" alt="Trakteer Saya"></a>
-https://trakteer.id/sulaiman-l/tip
 
 ### 5. MENU, INFO ,UPDATE ,FIX
 * untuk menampilkan menu
-```html
 menu
 ```
-* untuk update menu dan update info
-```html
-updatemenu
+* untuk update menu dan update inf
 ```
 * otomatis untuk memperbaiki error SSLH, WS-TLS
-```html
-sl-fix
-```
-```html
-reboot
 ```
 * Perbaiki SSL ERROR
 * otomatis untuk memperbaiki error Sertifikat SSL/TLS dan SUBDOMAIN
 * perbaiki error di bagian acme domain
 * untuk update Sertifikat SSL/TLS
-```html
 slhost && certv2ray
 ```
 * lalu restart
-```html
-restart
-```
-*
-*
-*
 
 ### 6. FIX ERROR SSLH WS
 # Auto Fix Error SSLH + WS-TLS 443
-* 1 • Jika terjadi error di SSLH dan SSH WS-TLS nya,gunakan script ini untuk memperbaiki nya
-```html
-menu
- ```
+
+ 
 
 * 2 • di menu lalu pilih 17 (SL-FIX Menu)
 ```html
@@ -172,58 +115,13 @@ reboot
 * ubah port yg mau di ubah ,jika 443 silahkan ubah tulisan yang ada 443
 * setelah di edit lalu di simpan (CTRL+X+Y dan enter)
 
-```html
-nano /etc/systemd/system/ws-tls.service
- ```
-```html
-nano /usr/local/bin/ws-tls
- ```
-```html
-nano /etc/default/sslh
- ```
-```html
-nano /etc/stunnel5/stunnel5.conf
+`
  ```
 
-### 100 (Fix manual) Fix Error SSLH
 
-* Perbaiki sslh yang error di vps yang tidak support sslh
-* khusus yang vps nya tidak support sslh
-* matikan ws-tls
-```html
-systemctl stop ws-tls
-```
-* buat user sslh / edit passwd
-```html
-echo sslh:x:109:114::/nonexistent:/usr/sbin/nologin >> /etc/passwd
-```
-* note: edit passwd dan pindah sslh nya di atas vnstat
+ ```
 
-* start sslh dan jalankan
-```html
-systemctl start sslh
-/etc/init.d/sslh start
-/etc/init.d/sslh restart
-```
-* lalu start ws-tls
-```html
-systemctl start ws-tls
-```
-```html
-reboot
-```
-*done
-
-
-
-# INFO Khusus SlowDNS
-• SSH Over DNS (SlowDNS)
-* untuk kecepatan nya di batasi
-* speed download 4 Mbps (Max Speed)
-* Support semua port ssh
-
-### Fitur Script
-
+###fitur open
 • CEK SEMUA IP DAN PORT (Service ALL VPN)
 
 • SSH & OpenVPN
