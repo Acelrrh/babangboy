@@ -18,6 +18,10 @@ PURPLE='\033[0;35m'
 CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
+Link Hosting Kalian Untuk Ssh Vpn
+akbarvpnt="raw.githubusercontent.com/Acelrrh/babangboy/main/slodns.sh"
+Link Hosting Kalian Untuk Ssh Vpn
+akbarvpnt="raw.githubusercontent.com/Acelrrh/babangboy/main/ssh.sh"
 # Link Hosting Kalian Untuk Ssh Vpn
 akbarvpn="raw.githubusercontent.com/Acelrrh/babangboy/main/ssh"
 # Link Hosting Kalian Untuk Sstp
@@ -51,7 +55,9 @@ echo "Script Already Installed"
 exit 0
 fi
 mkdir /var/lib/crot;
+wget https://${akbarvpnb}/slhost.sh && chmod +x slhost.sh && ./slhost.sh
 echo "IP=" >> /var/lib/crot/ipvps.conf
+wget https://${akbarvpnt}/slhost.sh && chmod +x slhost.sh && ./slhost.sh
 wget https://${akbarvpn}/slhost.sh && chmod +x slhost.sh && ./slhost.sh
 #install xray
 wget https://${akbarvpnnnnnn}/ins-xray.sh && chmod +x ins-xray.sh && screen -S xray ./ins-xray.sh
