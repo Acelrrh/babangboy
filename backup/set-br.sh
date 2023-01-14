@@ -1,4 +1,4 @@
-#!/bin/bash
+F#!/bin/bash
 # ==========================================
 # Color
 RED='\033[0;31m'
@@ -14,7 +14,7 @@ LIGHT='\033[0;37m'
 MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
 # Link Hosting Kalian
-akbarvpn="raw.githubusercontent.com/fisabiliyusri/Mantap/main/backup"
+akbarvpn="raw.githubusercontent.com/Acelrrh/babangboy/main/backup"
 
 apt install rclone -y
 printf "q\n" | rclone config
